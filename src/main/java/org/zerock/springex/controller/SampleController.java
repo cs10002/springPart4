@@ -18,7 +18,7 @@ public class SampleController {
 
     @GetMapping("/hello")
     public void hello(){
-        log.info("hello........");
+        log.info("hello......ffff..");
     }
     @GetMapping("/ex1")
     public void ex1(String name, int age){

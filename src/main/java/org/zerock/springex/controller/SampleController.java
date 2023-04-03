@@ -15,10 +15,9 @@ import java.time.LocalDate;
 @Controller
 @Log4j2
 public class SampleController {
-
     @GetMapping("/hello")
     public void hello(){
-        log.info("hello......ffff..");
+        log.info("hello......ffff..00000");
     }
     @GetMapping("/ex1")
     public void ex1(String name, int age){
